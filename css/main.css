@@ -82,9 +82,33 @@ nav a {
 
 .frame {
     height:450px;
-    width:800px;
+    width:auto;
     overflow:hidden;
     margin: 15px 0;
+  }
+
+  .zoom img{
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(50%);
+  }
+
+  .zoom img:hover {
+    filter: brightness(100%);
+    transform: scale(1.3);
+  }
+
+.workImage {
+align-content: center;
+margin: auto;
+}
+
+  .imageText {
+    text-align: center;
+    color:burlywood;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    margin:20px auto;
   }
 
 .contactBody {
@@ -112,6 +136,10 @@ nav a {
 .educationList {
     list-style: none;
 }
+
+/* @media screen and (max-width:1600) {
+
+} */
 
 @media screen and (max-width:1200px) {
 .aboutText {
