@@ -1,0 +1,121 @@
+a:link {
+    text-decoration: none;
+}
+
+
+a:visited {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: none;
+    color: chocolate;
+}
+
+
+a:active {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    height: 100%;
+    /* Full height */
+    /* position: fixed; Make it stick, even on scroll */
+    /* overflow: auto; Enable scrolling if the sidenav has too much content */
+
+}
+
+nav a {
+    display: block;
+    width: min-content;
+    font-family: 'Amatic SC', cursive;
+    font-size: xx-large;
+    white-space: nowrap;
+    color: burlywood;
+    padding: 5%;
+}
+
+#nameTitle {
+    font-size: 5em;
+    margin: 0 0 100px 0;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modalLinks {
+    margin: 0 50px;
+}
+
+.modalTitle {
+    font-family: 'Amatic SC', cursive;
+    font-size: 5em;
+    color: burlywood;
+}
+
+.aboutText {
+    color: burlywood;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+}
+
+.aboutImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frame {
+    height:450px;
+    width:800px;
+    overflow:hidden;
+    margin: 15px 0;
+  }
+
+.contactBody {
+    padding : 0;
+}
+
+.resumeTitles {
+    color: chocolate;
+}
+
+.resumeSubtitles {
+    color: burlywood;
+}
+
+.resumeText {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.resumeLink {
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+.educationList {
+    list-style: none;
+}
+
+@media screen and (max-width:1200px) {
+.aboutText {
+    font-size: 1.5em;
+
+}
+}
