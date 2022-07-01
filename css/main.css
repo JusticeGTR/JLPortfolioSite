@@ -43,6 +43,37 @@ nav a {
     padding: 5%;
 }
 
+/* body {
+    background:url("../images/navbar.png") no-repeat;
+    
+} */
+/* .navList {
+    background-image: url("../images/navbar.png");
+} */
+
+/* .navBackground {
+    background-image: url(../images/navbar.png);
+    min-width: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+} */
+
+/* .container {
+        position: absolute;
+        height: auto;
+} */
+
+.navBack {
+    position:absolute;
+    z-index: -1;
+    top:0;
+    left:0;
+    max-width: min-content;
+    height: -webkit-fill-available;
+}
+
 #nameTitle {
     font-size: 5em;
     margin: 0 0 100px 0;
