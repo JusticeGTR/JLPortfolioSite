@@ -43,10 +43,26 @@ nav a {
     padding: 5%;
 }
 
-/* body {
-    background:url("../images/navbar.png") no-repeat;
-    
+body {
+    background: url("../images/NewJourney.jpg") no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+/* img.bg {
+    min-height: 100%;
+    min-width: 1024px;
+
+    width: 100%;
+    height: auto;
+
+    position: fixed;
+    top: 0;
+    left: 0;
 } */
+
 /* .navList {
     background-image: url("../images/navbar.png");
 } */
@@ -183,9 +199,18 @@ align-content: center;
 
 } */
 
+/* @media screen and (max-width: 1920){
+    img.bg {
+        left: 50%;
+        margin-left: -600px
+    }
+} */
+
 @media screen and (max-width:1200px) {
 .aboutText {
     font-size: 1.5em;
 
 }
+
+
 }
